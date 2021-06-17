@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>movies</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+        <div class="container"><a class="navbar-brand" href="#">Online Movies</a><button data-bs-toggle="collapse"
+                class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle
+                    navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link " href="filme.html">Filme</a></li>
+                    <li class="nav-item"><a class="nav-link" href="filme.html">Seriale</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false"
+                            data-bs-toggle="dropdown" href="#">Profile</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">View Profile&nbsp;</a><a
+                                class="dropdown-item" href="#">Settings&nbsp;</a><a class="dropdown-item" href="#">Third
+                                Item</a></div>
+                    </li>
+                </ul><span class="navbar-text actions"> <a class="login" href="login.html">Log In</a><a
+                        class="btn btn-light action-button" role="button" href="registration.html">Sign Up</a></span>
+            </div>
+        </div>
+    </nav>
+    <!-- <script>
+        array = {
+            name: ['Burn Bright ', 'Lethal Weapon'],
+            url: ['https://celia.evosrv.com/EvoSrv/Wx9j3o25xanysTDw4ogG.mp4?md5=2wzHXWrWYOV_hMBjqs9hlA&expires=1623392292', 'https://celia.evosrv.com/EvoStreams/uawATVuTfsZHaInEdoWU.mp4.mp4?md5=fvQ-25RHsC2NsNgfxHdWpw&expires=1623392346'],
+            imgsrc: ['loft.jpg', 'meeting.jpg']
+        };
+        for (let i = 0; i < array.url.length; i++) {
+
+            var b = document.write('<img width="450"src = "assets/img/' + array.imgsrc[i] + '">');
+            // b+=document.write(' <div id="wrapper"><div id="player_wrapper"><h1>' + array.name[i] + '</h1><video width="450"controls><source src="' + array.url[i] + '" type="video/mp4"><track src="#" kind="subtitles" srclang="en" label="english"><track src="#" kind="subtitles" srclang="no" label="nor">Your browser does not support the video tag.</video></div></div>');
+        }
+        console.log(array);
+    </script> -->
+    <div class="list-container">
+        <div class="list">
+            <script>
+                for (let i = 0; i < 20; i++) {
+                    let list = document.querySelector(".list");
+                    list.innerHTML += "<img src=\"assets/img/desk.jpg\">";
+                }
+            </script>
+
+        </div>
+    </div>
+</body>

@@ -1,0 +1,69 @@
+.list-container {
+    background-color: gray;
+    display: grid;
+    justify-content: center;
+    align-items:center;
+    grid-template-columns:auto auto auto;
+    grid-gap:10px;
+    width: fit-content;
+    height: fit-content;
+   
+}
+img{
+    width:147px;
+    height:247px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto auto;
+    grid-gap:13px;
+}
+
+.list img {
+   width:147px;
+   height:247px;
+}
+.list-names {
+    text-align: center;
+}
+.list-names a{
+    text-decoration: none;
+    color:black;
+}
+.list-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+.movies-container{
+    display: flex;
+    justify-content: center;
+}
+.movies-looks{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.about-container{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    align-items: center;
+    grid-gap:13px;
+}
+.about-css{
+   
+}
+.about-css p{
+    width: 200px;
+}
+#demo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
